@@ -1,0 +1,81 @@
+body{
+    background-color: #ffe4e1;
+}
+
+/*------------------------------------------------*/
+
+header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    
+}
+
+.Tarjeta-presentacion{
+    background-color: #b0c2f2;
+    border-radius: 20px;
+    padding: 15px;
+}
+.Tarjeta-presentacion p {
+    font-size: 24px;
+}
+#hola-tarjeta-presentacion{
+    font-size: 40px;
+}
+
+.Mi-ubicacion{
+    font-size: 20px;
+}
+.Mi-ubicacion a{
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+.Mi-ubicacion a:hover{
+    font-weight: bold;
+}
+
+.Lenguajes-programacion h4{
+    font-size: 24px;
+}
+.Lenguajes-programacion-nivel{
+    display: flex;
+    
+}
+
+/*--------------------------------------------*/
+
+.Mi-Proyecto-1{
+    background-color: #fcb7af;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/*---------------------------------------------*/
+
+.Redes-sociales{
+    background-color: #b0f2c2;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    height: 150px;
+}
+.Redes-sociales h4{
+    font-size: 24px;
+}
+
+.Redes-sociales img{
+    height: 40px;
+    width: 40px;
+    filter: brightness(1.1); /*Con estas dos líneas de código quito el fondo blanco de las imagenes.*/
+    mix-blend-mode: multiply;
+    display: flexbox;
+
+}
+.Redes-sociales img:hover{
+    width: 50px;
+    height: 50px;
+}
