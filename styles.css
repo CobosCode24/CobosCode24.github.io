@@ -37,7 +37,7 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
 }
 
 /* ---------- MIS PROYECTOS ---------- */
-.Mi-Proyecto{
+.Mi-Proyecto-1{
     background-color: #fcb7af;
     border-radius: 20px;
     padding: 15px;
@@ -46,20 +46,46 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
     font-size: 24px;
 }
 
-.Mi-Proyecto{
+.Mi-Proyecto-1{
     display: flex;
 }
-.Proyecto-1-description p{
+.Mi-Proyecto-2{
+    background-color: #fcb7af;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.Mi-Proyecto-2{
+    display: flex;
+}
+.Mi-Proyecto-3{
+    background-color: #fcb7af;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.Mi-Proyecto-3{
+    display: flex;
+}
+.Proyecto-description p{
     margin-right: 30px;
     text-align: justify;
     background-color: #dfa39c;
     border-radius: 20px;
     padding: 15px;
 }
-.Proyecto-1-img img {
+.Proyecto-img img {
     width: 200px;
     border-radius: 10px;
     margin-top: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
     
 }
 
@@ -92,16 +118,13 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
 }
 
 /* ---------- MEDIDOR LENGUAJES DE PROGRAMACIÓN ---------- */
-.Lenguajes-programacion h4{
-    font-size: 24px;
-}
-.Lenguajes-programacion-nivel{
 
-    right: 5px;
-    top: 5px;
-    bottom: 5px;
-    left: 30%;
-    margin-left: 25px;
+.Lenguajes-programacion{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .HTML5{
@@ -148,7 +171,7 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
 .CSS-meter-porcent{
     background-color: yellow;
     height: 18px;
-    width: 30px;
+    width: 50px;
     border-radius: 20px;
 }
 
@@ -197,5 +220,52 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
     background-color: yellow;
     height: 18px;
     width: 60px;
+    border-radius: 20px;
+}
+
+.ASM{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 10px;
+}
+.ASM-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.ASM-meter-porcent{
+    background-color: yellow;
+    height: 18px;
+    width: 50px;
+    border-radius: 20px;
+}
+.JAVA{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 10px;
+}
+.JAVA-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.JAVA-meter-porcent{
+    background-color: yellow;
+    height: 18px;
+    width: 50px;
     border-radius: 20px;
 }
