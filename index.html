@@ -5,59 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <title>Mi portafolio web</title>
+    <title>Portafolio web de CobosCode</title>
 </head>
+
 <body>
     <header>
-        <h1>¡Bienvenid@ a mi portafolio web!</h1>
-        <div class="Tarjeta-presentacion">
+        
+        <h1 id="wellcome">¡Bienvenid@ a mi portafolio web!</h1>
+
+        <div class="presentation-card">
             <p>
-                <b id="hola-tarjeta-presentacion">¡Hola!</b> 🙋🏻‍♂️, me llamo <b>Manuel</b> o también conocido por mi NickName de programador on-line <i>CobosCode</i>.<br>
+                <b id="hello-presentation-card">¡Hola!</b>, me llamo <b>Manuel</b> 
+                o también conocido por mi NickName de programador on-line <i>CobosCode</i>.<br>
+                <br>Actualmente resido en <a id="location" href="https://www.google.es/maps/d/embed?mid=1ETt1ySA-b1z3ZNLSvlilshfAhHQ&ehbc=2E312F">Cáceres</a> y estoy cursando el ciclo de grado superior <i>Desarrolo de aplicaciones
+                     Multiplataforma (DAM)</i>.
             </p>
 
-            <div class="Mi-ubicacion">
-                🗺 📍 <a href="https://www.google.es/maps/d/embed?mid=1ETt1ySA-b1z3ZNLSvlilshfAhHQ&ehbc=2E312F">España, Extremedura, Cáceres.</a><br>
+        </div>
+    <!-- FIN TARJETA PRESENTACIÓN -->            
+
+    <div class="programming-languages">
+               
+        <div class="web-development">
+            <p id="web-programing">WEB</p>
+            <!-- HTML5 -->
+
+                <div class="HTML5">
+                    <div class="HTML5-meter-box">
+                        <div class="HTML5-meter-porcent">HTML5</div>
+                    </div>
+                </div>
+
+            <!-- CSS -->                        
+
+                <div class="CSS">
+                    <div class="CSS-meter-box">
+                        <div class="CSS-meter-porcent">CSS</div>
+                    </div>
+                </div>
+
+            <!-- JavaScript -->
+
+                <div class="JS">
+                    <div class="JS-meter-box">
+                        <div class="JS-meter-porcent">JS</div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="desktop-development">
+            <p id="desktop-programing">Desktop</p>
+            <!-- C++ -->
+            <div class="CPP">
+                <div class="CPP-meter-box">
+                    <div class="CPP-meter-porcent">C++</div>
+                </div>
             </div>
 
-            <div class="Lenguajes-programacion">
+            <!-- ASSEMBLER -->
 
-               
-                <div class="web-developement">
-                        <div class="HTML5">
-                            <div class="HTML5-meter-box">
-                                <div class="HTML5-meter-porcent">HTML5</div>
-                            </div>
-                        </div>
-                        <div class="CSS">
-                            <div class="CSS-meter-box">
-                                <div class="CSS-meter-porcent">CSS</div>
-                            </div>
-                        </div>
-                        <div class="JS">
-                            <div class="JS-meter-box">
-                                <div class="JS-meter-porcent">JS</div>
-                            </div>
-                        </div>
+            <div class ="ASM">
+                <div class="ASM-meter-box">
+                    <div class="ASM-meter-porcent">ASM</div>
                 </div>
-                <div class="desktop-developement">
-                    <div class="CPP">
-                        <div class="CPP-meter-box">
-                            <div class="CPP-meter-porcent">C++</div>
-                        </div>
-                    </div>
-                    <div class="ASM">
-                        <div class="ASM-meter-box">
-                            <div class="ASM-meter-porcent">ASM</div>
-                        </div>
-                    </div>
-                    <div class="JAVA">
-                        <div class="JAVA-meter-box">
-                            <div class="JAVA-meter-porcent">JAVA</div>
-                        </div>
-                    </div>
+            </div>
+
+            <!-- JAVA -->
+
+            <div class="JAVA">
+                <div class="JAVA-meter-box">
+                    <div class="JAVA-meter-porcent">JAVA</div>
                 </div>
-            </div>   
+            </div>
+            
         </div>
+    </div>
+
+    <!-- INICIO PROYECTOS -->            
 
         <!-- RSV -->
         <div class="Mi-Proyecto-1">
@@ -117,5 +141,11 @@
         </div>
 
     </header>
+
+    <footer>
+        <p>Esta web ha sido creada con fines autodidactas.</p>
+        <p>&copy; Todos los derechos reservados a Manuel Cobos (CobosCode24)</p>
+    </footer>
+
 </body>
 </html>

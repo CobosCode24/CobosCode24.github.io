@@ -5,35 +5,248 @@ body{
 
 /* ---------- MI TARJETA DE PRESENTACION ---------- */
 
-header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
+#wellcome {
     color: black;
     font-size: 60px;
     text-align: center;
     
 }
 
-.Tarjeta-presentacion{
+.presentation-card{
     background-color: #b0c2f2;
     border-radius: 20px;
-    padding: 15px;
+    padding: 10px;
+
 }
-.Tarjeta-presentacion p {
-    font-size: 24px;
+.presentation-card p {
+    font-size: 20px;
 }
-#hola-tarjeta-presentacion{
+#hello-presentation-card{
     font-size: 40px;
 }
 
-.Mi-ubicacion{
+#location{
     font-size: 20px;
-}
-.Mi-ubicacion a{
-    font-size: 24px;
     color: black;
     text-decoration: none;
 }
-.Mi-ubicacion a:hover{
+
+#location:hover{
     font-weight: bold;
+}
+
+/* ---------- MEDIDOR LENGUAJES DE PROGRAMACIÓN ---------- */
+
+.programming-languages{
+    background-color: #b0c2f2;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.web-development{
+    background-color: lightblue;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative; 
+    box-shadow: 5px 5px black;
+
+}
+#web-programing{
+    text-align: center;
+    font-weight: 800; 
+
+}
+.desktop-development{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    position: relative;
+    box-shadow: 5px 5px black;
+
+}
+#desktop-programing{
+    text-align: center;
+    font-weight: 800; 
+
+}
+.HTML5{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 10px;
+
+    display: table;
+    margin: 0 auto;
+
+}
+.HTML5-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.HTML5-meter-porcent{
+    background-color: chartreuse;
+    height: 18px;
+    width: 90px;
+    border-radius: 20px;
+}
+
+.CSS{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 10px;
+
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.CSS-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.CSS-meter-porcent{
+    background-color: yellow;
+    height: 18px;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.JS{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 5px;
+
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.JS-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.JS-meter-porcent{
+    background-color: red;
+    height: 18px;
+    width: 0px;
+    border-radius: 20px;
+}
+
+.CPP{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 10px;
+
+    display: table;
+    margin: 0 auto;
+
+}
+.CPP-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.CPP-meter-porcent{
+    background-color: yellow;
+    height: 18px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+.ASM{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 10px;
+
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.ASM-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.ASM-meter-porcent{
+    background-color: yellow;
+    height: 18px;
+    width: 50px;
+    border-radius: 20px;
+}
+.JAVA{
+    margin-right: 25px;
+    left: 5px;
+    top: 5px;
+    bottom: 5px;
+    right: 70%;
+    margin-bottom: 5px;
+
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+.JAVA-meter-box{
+    background-color: white;
+    height: 18px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+}
+.JAVA-meter-porcent{
+    background-color: yellow;
+    height: 18px;
+    width: 50px;
+    border-radius: 20px;
 }
 
 /* ---------- MIS PROYECTOS ---------- */
@@ -44,6 +257,7 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
     margin-top: 20px;
     text-align: center;
     font-size: 24px;
+
 }
 
 .Mi-Proyecto-1{
@@ -117,155 +331,9 @@ header h1 { /*Selecciona los elementos h1 que estan dentro del header*/
     
 }
 
-/* ---------- MEDIDOR LENGUAJES DE PROGRAMACIÓN ---------- */
-
-.Lenguajes-programacion{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-.HTML5{
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
-    margin-bottom: 10px;
-}
-.HTML5-meter-box{
-    background-color: white;
-    height: 18px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: small;
-    font-weight: 900;
-}
-.HTML5-meter-porcent{
-    background-color: chartreuse;
-    height: 18px;
-    width: 90px;
-    border-radius: 20px;
-}
-
-.CSS{
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
-    margin-bottom: 10px;
-}
-.CSS-meter-box{
-    background-color: white;
-    height: 18px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: small;
-    font-weight: 900;
-}
-.CSS-meter-porcent{
-    background-color: yellow;
-    height: 18px;
-    width: 50px;
-    border-radius: 20px;
-}
-
-.JS{
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
-    margin-bottom: 10px;
-}
-.JS-meter-box{
-    background-color: white;
-    height: 18px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: small;
-    font-weight: 900;
-}
-.JS-meter-porcent{
-    background-color: red;
-    height: 18px;
-    width: 0px;
-    border-radius: 20px;
-}
-
-.CPP{
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
-    margin-bottom: 10px;
-}
-.CPP-meter-box{
-    background-color: white;
-    height: 18px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: small;
-    font-weight: 900;
-}
-.CPP-meter-porcent{
-    background-color: yellow;
-    height: 18px;
-    width: 60px;
-    border-radius: 20px;
-}
-
-.ASM{
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
-    margin-bottom: 10px;
-}
-.ASM-meter-box{
-    background-color: white;
-    height: 18px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: small;
-    font-weight: 900;
-}
-.ASM-meter-porcent{
-    background-color: yellow;
-    height: 18px;
-    width: 50px;
-    border-radius: 20px;
-}
-.JAVA{
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
-    margin-bottom: 10px;
-}
-.JAVA-meter-box{
-    background-color: white;
-    height: 18px;
-    width: 100px;
-    border-radius: 20px;
-    text-align: center;
-    font-size: small;
-    font-weight: 900;
-}
-.JAVA-meter-porcent{
-    background-color: yellow;
-    height: 18px;
-    width: 50px;
-    border-radius: 20px;
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-style: italic;
 }
